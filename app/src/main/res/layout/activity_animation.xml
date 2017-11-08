@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <com.prisam.customcalendar.custom_components.PizzaView
+        android:id="@+id/pizzaView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        app:pv_color="@color/blush"
+        app:pv_num_wedges="10"
+        app:pv_stroke_width="8dp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button_selector"
+        android:visibility="gone" />
+
+    <com.prisam.customcalendar.custom_components.CImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        app:iv_shape="@string/rectangle" />
+
+</LinearLayout>

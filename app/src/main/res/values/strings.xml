@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="app_name_cc">CustomCalendar</string>
+    <string name="app_name_image">Image Download</string>
+    <string name="app_name_spinner">Spinner</string>
+    <string name="app_name_cb">Call backs</string>
+    <string name="save">Save</string>
+    <string name="download">download</string>
+    <string name="downloads">Downloads</string>
+    <string name="no_network">Network disconnected</string>
+
+    <string name="circle">Circle</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="stepview">stepView</string>
+    <string name="recyclerview">recyclerView</string>
+    <string name="progressbar">progressBar</string>
+</resources>

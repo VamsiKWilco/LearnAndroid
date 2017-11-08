@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PizzaView">
+        <attr name="pv_num_wedges" format="integer"/>
+        <attr name="pv_stroke_width" format="dimension"/>
+        <attr name="pv_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="StepView">
+        <attr name="sv_num_items" format="integer"/>
+        <attr name="sv_item_margin" format="integer"/>
+        <attr name="sv_item_height" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CImageView">
+        <attr name="iv_shape" format="string" />
+    </declare-styleable>
+</resources>

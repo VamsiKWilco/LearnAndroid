@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.prisam.customcalendar.custom_components.CImageView
+        android:id="@+id/one_tv"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:elevation="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blueprogressbar"
+        app:iv_shape="@string/rectangle"
+        tools:targetApi="lollipop" />
+
+    <com.prisam.customcalendar.custom_components.CImageView
+        android:id="@+id/two_tv"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blueprogressbar"
+        app:iv_shape="@string/rectangle"
+        tools:targetApi="lollipop" />
+
+    <com.prisam.customcalendar.custom_components.CImageView
+        android:id="@+id/three_tv"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:elevation="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blueprogressbar"
+        app:iv_shape="@string/rectangle"
+        tools:targetApi="lollipop" />
+
+</merge>

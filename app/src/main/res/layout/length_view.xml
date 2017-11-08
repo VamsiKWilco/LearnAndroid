@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.prisam.customcalendar.custom_components.CButton
+        android:id="@+id/minus_btn"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="25sp" />
+
+    <com.prisam.customcalendar.custom_components.CTextView
+        android:id="@+id/c_tv"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <com.prisam.customcalendar.custom_components.CButton
+        android:id="@+id/plus_btn"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="25sp" />
+
+</merge>

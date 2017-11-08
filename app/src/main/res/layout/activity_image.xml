@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:contentDescription="@string/progressbar"
+        android:indeterminate="true"
+        android:progressDrawable="@drawable/blueprogressbar"
+        android:visibility="gone" />
+
+    <com.prisam.customcalendar.custom_components.StepView
+        android:id="@+id/stepView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/stepview"
+        android:gravity="bottom"
+        app:sv_item_height="35"
+        app:sv_item_margin="5"
+        app:sv_num_items="3" />
+
+    <com.prisam.customcalendar.custom_components.CRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/stepView"
+        android:animationCache="true"
+        android:contentDescription="@string/recyclerview"
+        tools:listitem="@layout/image_inflater"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>
